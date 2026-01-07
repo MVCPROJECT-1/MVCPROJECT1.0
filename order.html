@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order - MVC Café</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="center">
+    <form class="box" onsubmit="submitOrder(event)">
+      <h2>Order Menu</h2>
+
+      <select id="menu">
+        <option>Matcha Latte</option>
+        <option>Vanilla Milk</option>
+        <option>Chocolate Drink</option>
+        <option>Matcha Cake</option>
+      </select>
+
+      <input type="number" id="qty" placeholder="Quantity" required />
+      <button type="submit">Place Order (COD)</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
